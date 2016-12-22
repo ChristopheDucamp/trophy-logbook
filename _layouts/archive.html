@@ -25,8 +25,8 @@ layout: default
     <header>
       <ul class="tabs">
         <li class="tabs__item">{{ page.title | replace: "-", " " }}</li>
-        <li class="tabs__item">Places</li>
-        <li class="tabs__item">People</li>
+        <li class="tabs__item">Lieux</li>
+        <li class="tabs__item">Personnes</li>
       </ul>
     </header>
 
@@ -37,7 +37,7 @@ layout: default
       {{ page.content | markdownify }}
     {% endif %}
     {% endfor %}
-        <h3>Encounters:</h3>
+        <h3>Rencontres :</h3>
         {% for post in site.categories[page.title] %}
             {% assign date_name = {{post.date | date: "%Y-%m-%-d"}} %}
             {% assign days_uniq = days_uniq | push: date_name %}
@@ -64,7 +64,7 @@ layout: default
     {% include archive-link.html %}
     {% include categories-tab.html %}
     {% include tags-tab.html %}
-  
+
   </div>
 
 </section>

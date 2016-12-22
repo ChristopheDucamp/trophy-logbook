@@ -1,34 +1,41 @@
-# Trophy Logbook – A Jekyll Journal
+# Trophy Logbook – Un Journal Jekyll
+
+cf le post de contexte : [Journaling with Jekyll](https://medium.com/@craigeley/journaling-with-jekyll-c7065031a33#.9v9e9vq5p)
 
 ![](https://raw.githubusercontent.com/craigeley/trophy-logbook/master/_screenshots/individual_entry.png)
 
-This is a variant of the [Trophy](https://github.com/thomasvaeth/trophy-jekyll) Jekyll theme designed to be used as a personal logbook or journal. Since it is based on a blogging platform, it uses some of Jekyll's built-in functionality in *very* nonstandard ways. Your mileage will certainly vary.
+Une variante du thème Jekyll [Trophy](https://github.com/thomasvaeth/trophy-jekyll) conçue pour être utilisée comme un journal de bord personnel. Basé sur une plateforme de blog, il utilise quelques-unes des fonctionnalités de Jekyll de manière vraiment peu-standards. 
 
-If you have never heard of Jekyll, learn all about it [here](http://jekyllrb.com/docs/home/).
+Si vous ne connaissez pas Jekyll, vous en saurez un peu plus [ici](http://jekyllrb.com/docs/home/) ou en rejoigant la [communauté jamstatic](https://jamstatic.fr).
 
-## Features
-- Jekyll's "tags" and "categories" have been hijacked to serve as person and place records, respectively. With help from [`jekyll archives`](https://github.com/jekyll/jekyll-archives), this allows for the automatic creation of records that answer such probing questions such as "How many times I have I really gone to Chipotle this year?" or "When was the last time I hung out with Jane?"
-    + Additionally, by using Trophy's "_categories" folder, you can create a description and a picture to supplement these entries, much like a wiki. These entries are automatically updated to include the dates that you visited a place or met with a person.
-- Automatically generated static maps using the Google Static Maps API. Simply add a street address or lat/lon coordinates to any entry.
-    + A custom zoom level if you want to see the bigger picture.
-- Easy extensibility and flexibility—it's just plain text.
+## Fonctionnalités 
 
-## "Features"
-- The use of `jekyll-archives` for automatic creation of person and place records *greatly* improves the functionality of this project. However, that makes it incompatible with [GitHub Pages](https://pages.github.com/). You can look at the original [Trophy](https://github.com/thomasvaeth/trophy-jekyll) repo for a Pages-compatible solution.
+- Les "tags" et catégories de Jekyll ont été bidouillés pour servir comme enregistrements de personnes et de lieux. Avec l'aide de [`jekyll archives`](https://github.com/jekyll/jekyll-archives), ceci permet la création automatique d'enregistrements qui répondent aux questions telles que "Combien de fois je suis vraiment allé au Social Bar cette année ?" ou "Quand ai-je dîner la dernière fois avec Barbara ?"
+    + En outre, en utilisant le répertoire "_categories" de Trophy, vous pouvez créer une description et une image pour compléter ces entrées, tout comme sur un wiki. Ces entrées sont automatiquement mises à jour pou y ajouter les dates auxquelles vous avez visité un lieu ou rencontré une personne.
+- Cartes statiques générées automatiquement en utilisant l'API Google Static Maps. Ajoutez simplemnet une adresse de rue ou les coordonnées lat/long pour n'importe quelle entrée.
+    + Un niveau de zoom personnalisé si vous voulez voir la plus grande image.
+- Extensibilité et flexibilité faciles - juste du plein-texte.
 
-## Site Structure
-From the home screen, the most visible elements are "days":
+## "Fonctionnalités"
+- L'utilisation de `jekyll-archives` pour la création automatique d'enregistrements de personnes et de lieux améliore *grandement* la fonctionnalité de ce projet. Cependant, cela le rend incompatible avec [GitHub Pages](https://pages.github.com/). Vous pouvez consulter le repo d'origine [Trophy] (https://github.com/thomasvaeth/trophy-jekyll) pour une solution compatible Pages.
+
+## Structure du site
+
+À partir de l'écran d'accueil, les éléments les plus visibles sont les «jours» :
+
 ![](https://raw.githubusercontent.com/craigeley/trophy-logbook/master/_screenshots/homepage.png)
 
-Days are comprised of individual entries, which are the posts contained in the `_posts` folder:
-![](https://raw.githubusercontent.com/craigeley/trophy-logbook/master/_screenshots/summarized_day.png)
+Les jours sont composés d'entrées individuelles, qui sont les messages contenus dans le dossier `_posts`:
+! [] (Https://raw.githubusercontent.com/craigeley/trophy-logbook/master/_screenshots/summarized_day.png)
 
-Posts can optionally contain people and person records, which create their own entries. By default, these entries only contain a list of all days for which they are in entries. However, by creating a sidecar file in the `_categories` folder, you can include metadata such as a picture and a description. These files should use a dash instead of a space in their name. See [the _categories folder](https://github.com/craigeley/trophy-logbook/tree/master/_categories) for examples, like this one:
+Les posts peuvent éventuellement contenir des enregistrements de gens et de personnes, qui créent leurs propres entrées. Par défaut, ces entrées ne contiennent qu'une liste de tous les jours pour lesquels elles sont entrées. Cependant, en créant un fichier sidecar dans le dossier `_categories`, vous pouvez inclure des métadonnées telles qu'une image et une description. Ces fichiers doivent utiliser un tiret au lieu d'un espace dans leur nom. Voir [le dossier _categories] (https://github.com/craigeley/trophy-logbook/tree/master/_categories) pour des exemples, comme celui-ci:
+
 
 ![](https://raw.githubusercontent.com/craigeley/trophy-logbook/master/_screenshots/location_entry.png)
 
-## Caveats
-Feel free to leave comments and/or submit pull requests for obvious bugs, and I'll do my best. For things like major feature requests or changing how the site functions, I would suggest digging around in the code and seeing if you can build it yourself. In a sense, this project is provided "as-is."
+## Attention 
 
-## License
-Trophy Jekyll is licensed under the MIT License.
+N'hésitez pas à laisser des commentaires et/ou envoyer vos "pull-requests" pour des bugs évidents, et je ferai de mon mieux. Pour des choses comme les demandes de fonctionnalités majeures ou la modification du fonctionnement du site, je suggère de creuser autour dans le code et voir si vous pouvez le faire vous-même. En un sens, ce projet est fourni «tel quel».
+
+## Licence
+Trophy Jekyll licencié sous la Licence MIT.

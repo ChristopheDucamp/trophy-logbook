@@ -1,7 +1,12 @@
 ---
 title: Forequarter
 layout: default
+<<<<<<< Updated upstream:_categories/Forequarter.md
 redirect_to: "/place/forequarter"
+=======
+title: "social bar"
+redirect_to: /place/social-bar
+>>>>>>> Stashed changes:_categories/social-bar.md
 image: https://static1.squarespace.com/static/547395d0e4b0ea0f5d1810dd/t/5720f07a59827e8a710d454c/1461776516355/micros.jpg
 ---
 

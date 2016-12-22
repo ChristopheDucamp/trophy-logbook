@@ -1,7 +1,12 @@
 ---
 title: Mickeys-Tavern
 layout: default
+<<<<<<< Updated upstream
 redirect_to: "/place/orpheum-theatre"
+=======
+title: "social-bar"
+redirect_to: /place/social-bar
+>>>>>>> Stashed changes
 image: http://www.surroundedbyreality.com/Businesses/Bars/Pictures/Mickeys03.jpg
 ---
 

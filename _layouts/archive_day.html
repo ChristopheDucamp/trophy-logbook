@@ -28,8 +28,8 @@ layout: default
     <header>
       <ul class="tabs">
         <li class="tabs__item">{{ page.date | date: "%B %-d %Y" }}</li>
-        <li class="tabs__item">Places</li>
-        <li class="tabs__item">People</li>
+        <li class="tabs__item">Lieux</li>
+        <li class="tabs__item">Personnes</li>
       </ul>
     </header>
 
@@ -39,7 +39,7 @@ layout: default
         <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }} / {{ post.date | date: "%l:%M%P" }}</h3></a>
         <p>{{ post.content | markdownify }}</p>
         <hr>
-      {% endfor %} 
+      {% endfor %}
       {% for post in page.posts %}
         {% for tag in post.tags %}
             {% assign tag_name = {{tag}} %}
@@ -48,7 +48,7 @@ layout: default
       {% endfor %}
       {% assign tag_uniq = tag_uniq | uniq %}
       {% for tag in tag_uniq %}
-        {% assign indicator = forloop.first %} 
+        {% assign indicator = forloop.first %}
         {% assign no_comma = forloop.last %}
         {% if indicator %}People: {% endif %}<a href="/people/{{ tag }}">{{ tag | replace: "-", " " }}</a>{% unless no_comma %} |{% endunless %}
       {% endfor %}
@@ -62,18 +62,18 @@ layout: default
       {% assign cat_uniq = cat_uniq | uniq %}
       {% if cat_uniq != ""%}
       {% endif %}
-      {% for cat in cat_uniq %} 
-        {% assign indicator = forloop.first %} 
+      {% for cat in cat_uniq %}
+        {% assign indicator = forloop.first %}
         {% assign no_comma = forloop.last %}
         {% if indicator %}Places: {% endif %}<a href="/place/{{ cat }}">{{ cat | replace: "-", " " }}</a>{% unless no_comma %} |{% endunless %}
       {% endfor %}
         </p>
       <br>
     </div>
-    
+
     {% include categories-tab.html %}
     {% include tags-tab.html %}
-  
+
   </div>
 
 </section>

@@ -1,38 +1,32 @@
----
-title: Le logbook
-timezone: Europe/Paris
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+# reglages sites
 email: christophe.ducamp@gmail.com
-baseurl: 
-google_analytics: 
+baseurl: ""
+google_analytics:
 host: 0.0.0.0
 maps_api: AIzaSyA7XGsDS5WftXFgNiuIouzMy20aH9XyT3w
-description: 
-url: 
-twitter_username: http://twitter.com/xtof_fr
-default_img: 
-include:
-- _categories
-exclude:
-- _screenshots
-- Gemfile
-- Gemfile.lock
+
+# SEO settings
+title: Le Logbook
+description:
+url: ""
+twitter_username:
+default_img:
+
+# reglages build
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
 permalink: "/entries/:year-:month-:day-:title/"
 sass:
   style: compressed
+  
 gems:
 - jekyll-paginate
 - jekyll-sitemap
 - octopress-autoprefixer
 - jekyll-archives
 - jekyll-redirect-from
+
 jekyll-archives:
   enabled:
   - tags
@@ -42,6 +36,11 @@ jekyll-archives:
     tag: archive
     category: archive
     day: archive_day
+  enabled: [tags, categories, day]
+  layouts:
+    tag: 'archive'
+    category: 'archive'
+    day: 'archive_day'
   permalinks:
     year: "/:year/"
     month: "/:year/:month/"
