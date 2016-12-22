@@ -1,9 +1,4 @@
 ---
-title: Jane-Jones
-layout: default
-<<<<<<< Updated upstream
-redirect_to: "/people/jane-jones"
-image: 
 ---
 
 A colleague from work.

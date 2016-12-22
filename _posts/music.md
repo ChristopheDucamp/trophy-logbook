@@ -1,13 +1,5 @@
 ---
-title: Music @ Mickey's
-date: 2016-12-11 22:07:00 Z
-categories:
-- Mickeys-Tavern
-tags:
-- Joe-Smith
-layout: post
-<<<<<<< Updated upstream
-location: 1524 Williamson St, Madison, WI
+title: 2016 12 11 Music
 ---
 
 This post's location is set with a street address. It also includes a place record and a person record.

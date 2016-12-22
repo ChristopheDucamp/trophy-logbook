@@ -1,13 +1,5 @@
 ---
-title: Dinner
-date: 2016-12-12 18:11:00 +01:00
-categories:
-- social-bar
-tags:
-- Jane-Jones
-location: 708 E Johnson St, Madison, WI
-layout: post
-<<<<<<< Updated upstream
+title: 2016 12 12 Dinner
 ---
 
 Ce post a les coordonnées de l'adresse et l'enregistrement d'un lieu. Même s'il n'y a pas de valeur zoom, le zoom pour la vue générale journalière se règle par la valeur de l'[entrée précédente](/entries/2016-12-12-monday/). (Donc oui, une valeur de zoom pour chaque entrée changera la valeur du zoom de l'ensemble de la journée.)

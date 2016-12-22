@@ -1,7 +1,8 @@
---- 
+---
+title: Jean-Dupont
 layout: default
-title: "Jean-Dupont"
-redirect_to: /people/jean-dupont
-image:
---- 
+redirect_to: "/people/jean-dupont"
+image: 
+---
+
 Un vieux pote du lycée

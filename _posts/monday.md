@@ -1,12 +1,5 @@
 ---
-title: Monday
-date: 2016-12-12 11:11:00 Z
-tags:
-- Jane-Jones
-layout: post
-<<<<<<< Updated upstream
-location: 43.074713, -89.384018
-zoom: 12
+title: 2016 12 12 Monday
 ---
 
 This post has lat/long coordinates (with no space after the comma), a person record, but no place record. It also has a custom zoom distance which changes how the map is rendered on the individual entry as well as the day summary page.
