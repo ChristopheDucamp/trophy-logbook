@@ -1,6 +1,6 @@
 ---
-title: the Logbook
-timezone: UTC
+title: Le journal de bord
+timezone: Europe/Paris
 collections:
   posts:
     title: Posts
@@ -9,12 +9,12 @@ collections:
     title: Uploads
     output: true
 email: 
-baseurl: ''
+baseurl: 
 google_analytics: 
 host: 0.0.0.0
 maps_api: AIzaSyA7XGsDS5WftXFgNiuIouzMy20aH9XyT3w
 description: 
-url: ''
+url: 
 twitter_username: 
 default_img: 
 include:
