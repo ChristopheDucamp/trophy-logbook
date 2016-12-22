@@ -1,5 +1,5 @@
 ---
-title: Le journal de bord
+title: Le logbook
 timezone: Europe/Paris
 collections:
   posts:
@@ -8,14 +8,14 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: 
+email: christophe.ducamp@gmail.com
 baseurl: 
 google_analytics: 
 host: 0.0.0.0
 maps_api: AIzaSyA7XGsDS5WftXFgNiuIouzMy20aH9XyT3w
 description: 
 url: 
-twitter_username: 
+twitter_username: http://twitter.com/xtof_fr
 default_img: 
 include:
 - _categories
